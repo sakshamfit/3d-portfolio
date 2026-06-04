@@ -10,12 +10,9 @@ After you've pushed this repo to your own GitHub account, replace `sakshamfit` b
 GitHub username (if different) and click the button — Netlify will clone the repo, run the build,
 and host it for free:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sakshamfit/3d-portfolio)
-
+click to view https://sakshamfit.netlify.app/
 > Build settings are read automatically from `netlify.toml`
 > (build command `npm run build`, publish directory `dist`, Node 20).
-
-![Portfolio Preview](public/images/preview1.png)
 
 ## Table of Contents
 
