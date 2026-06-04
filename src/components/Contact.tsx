@@ -19,8 +19,10 @@ const Contact = () => {
                 GitHub — sakshamfit
               </a>
             </p>
+            <h4>Education</h4>
+            <p>Student at Marwar Business School</p>
             <h4>Focus</h4>
-            <p>Full Stack & Web Development</p>
+            <p>Web Development</p>
             <p>HTML · CSS · JavaScript · React · Node.js</p>
           </div>
           <div className="contact-box">
@@ -46,7 +48,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Saksham</span>
+              Designed and Developed <br /> by <span>Anshuman Pandey</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

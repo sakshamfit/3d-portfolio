@@ -1,0 +1,25 @@
+# Netlify configuration for Anshuman Pandey's 3D Portfolio
+# Vite + React + TypeScript single-page app
+
+[build]
+  # Command Netlify runs to produce the production bundle
+  command = "npm run build"
+  # Folder that gets deployed (Vite outputs here)
+  publish = "dist"
+
+[build.environment]
+  # Pin a modern Node version so the build matches local dev
+  NODE_VERSION = "20"
+
+# Single-page-app fallback: send all routes to index.html
+# so client-side navigation / direct links don't 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Long-cache the hashed, immutable build assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

@@ -43,7 +43,7 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          S
+          AP
         </a>
         <a
           href="https://github.com/sakshamfit"

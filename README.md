@@ -1,8 +1,19 @@
-# Saksham — 3D Portfolio Website
+# Anshuman Pandey — 3D Portfolio Website
 
 This repository contains the source code for a personal 3D portfolio built with React, TypeScript, Three.js, React Three Fiber, and GSAP. It includes animated page sections, a character scene, custom cursor interactions, and smooth transitions designed for a modern portfolio experience.
 
-Built by Saksham (GitHub: [@sakshamfit](https://github.com/sakshamfit)).
+Built by Anshuman Pandey, student at Marwar Business School (GitHub: [@sakshamfit](https://github.com/sakshamfit)).
+
+## 🚀 One-Click Deploy to Netlify
+
+After you've pushed this repo to your own GitHub account, replace `sakshamfit` below with your
+GitHub username (if different) and click the button — Netlify will clone the repo, run the build,
+and host it for free:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sakshamfit/3d-portfolio)
+
+> Build settings are read automatically from `netlify.toml`
+> (build command `npm run build`, publish directory `dist`, Node 20).
 
 ![Portfolio Preview](public/images/preview1.png)
 
@@ -170,6 +181,27 @@ You can adapt this portfolio to your own profile by updating the following areas
    ```
 
 3. Deploy the generated `dist/` folder to your hosting provider (for example Vercel, Netlify, or Cloudflare Pages).
+
+### Deploying to Netlify
+
+This repo is pre-configured for Netlify via `netlify.toml` and `public/_redirects`. You have three options:
+
+**A. One-click button (easiest)** — Use the [Deploy to Netlify](#-one-click-deploy-to-netlify) button at the top of this README (works once the repo is on your GitHub).
+
+**B. Connect the Git repo**
+1. Go to [app.netlify.com](https://app.netlify.com) → **Add new site → Import an existing project**.
+2. Choose your GitHub repo. Netlify auto-detects the settings from `netlify.toml`:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+   - Node version: `20`
+3. Click **Deploy** — every push to your default branch will auto-redeploy.
+
+**C. Netlify CLI (deploy from your machine)**
+```bash
+npm install -g netlify-cli
+npm run build
+netlify deploy --prod --dir=dist
+```
 
 ## License
 

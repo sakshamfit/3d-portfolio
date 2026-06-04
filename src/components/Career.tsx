@@ -15,14 +15,15 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack / Web Developer</h4>
-                <h5>Building Projects</h5>
+                <h4>Student</h4>
+                <h5>Marwar Business School</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Designing and developing web applications end to end—from responsive
-              frontends to backend logic—and shipping them to GitHub.
+              Currently studying at Marwar Business School while building web
+              development skills—designing and shipping projects end to end, from
+              responsive frontends to backend logic, on GitHub.
             </p>
           </div>
           <div className="career-info-box">
