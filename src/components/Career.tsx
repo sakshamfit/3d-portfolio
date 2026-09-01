@@ -15,69 +15,65 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Plus One (+one)</h4>
-                <h5>Founder &amp; Builder · plusoneco.in</h5>
+                <h4>Founder &amp; Full-Stack Developer</h4>
+                <h5>+one · plusoneco.in</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Designing and shipping a realtime chatting app for friends, group
-              chats and interest-based communities—1:1 and group messaging over
-              Socket.IO, live polls, voice notes, stories, disappearing messages
-              and WebRTC calls, running on web, Android and iOS from one codebase.
+              Founded and developed +one, owning the product from concept and
+              architecture through implementation and continuous iteration. Built
+              the frontend in TypeScript and React, backend services and API
+              workflows in Node.js and Express, and designed the data structures
+              behind it in MongoDB. Integrated LLM APIs to explore practical
+              AI-powered capabilities, and handled product decisions, testing,
+              deployment and debugging across every layer independently.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Student</h4>
-                <h5>Marwar Business School</h5>
+                <h4>Founder &amp; Full-Stack Developer</h4>
+                <h5>NEARconnect</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>Product</h3>
             </div>
             <p>
-              Currently studying at Marwar Business School while building web
-              development skills—designing and shipping projects end to end, from
-              responsive frontends to backend logic, on GitHub.
+              Conceptualized and built NEARconnect, a platform connecting people
+              with relevant professionals and businesses by profession and
+              location. Designed the architecture, user flows and database
+              structure, built responsive interfaces with React, JavaScript and
+              Tailwind CSS, and shipped backend services on Node.js, Express and
+              MongoDB supporting user profiles, professional discovery and
+              location-based interactions.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>NEARconnect</h4>
-                <h5>Web App · JavaScript</h5>
+                <h4>AI Assistant</h4>
+                <h5>Python · LLM APIs · Generative AI</h5>
               </div>
               <h3>Project</h3>
             </div>
             <p>
-              Built a web app to connect people nearby based on their profession,
-              focusing on matching and a clean, usable interface.
+              Developed an AI assistant connecting application functionality to an
+              LLM through API-based workflows—exploring conversational AI,
+              automation, voice interaction, prompt engineering, and comparing
+              models on response quality, latency and fit for each workflow.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Restaurant & Web Builds</h4>
-                <h5>HTML · CSS</h5>
+                <h4>Bachelor of Computer Application</h4>
+                <h5>DDU University</h5>
               </div>
-              <h3>Projects</h3>
+              <h3>BCA</h3>
             </div>
             <p>
-              Created multiple websites including Nate Bhai Biriyani Corner—practicing
-              responsive layouts, styling, and content-driven page design.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Learning the Web</h4>
-                <h5>HTML · CSS · JavaScript</h5>
-              </div>
-              <h3>Foundation</h3>
-            </div>
-            <p>
-              Started with the fundamentals of the web—markup, styling, and
-              scripting—through hands-on projects and experiments on GitHub.
+              Currently pursuing a BCA, now in the 3rd semester, while building and
+              shipping full-stack products alongside coursework.
             </p>
           </div>
         </div>

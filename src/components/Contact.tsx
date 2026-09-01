@@ -8,25 +8,38 @@ const Contact = () => {
         <h3>Contact</h3>
         <div className="contact-flex">
           <div className="contact-box">
-            <h4>Connect</h4>
+            <h4>Email</h4>
             <p>
               <a
-                href="https://github.com/sakshamfit"
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:tonybanner885@gmail.com"
                 data-cursor="disable"
               >
-                GitHub — sakshamfit
+                tonybanner885@gmail.com
+              </a>
+            </p>
+            <h4>Phone</h4>
+            <p>
+              <a href="tel:+918604683669" data-cursor="disable">
+                +91 86046 83669
               </a>
             </p>
             <h4>Education</h4>
-            <p>Student at Marwar Business School</p>
+            <p>BCA, DDU University</p>
             <h4>Focus</h4>
-            <p>Web Development</p>
-            <p>HTML · CSS · JavaScript · React · Node.js</p>
+            <p>Full-Stack Development &amp; Applied AI</p>
+            <p>TypeScript · React · Node.js · Express · MongoDB · LLM APIs</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
+            <a
+              href="https://plusoneco.in"
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              +one — plusoneco.in <MdArrowOutward />
+            </a>
             <a
               href="https://github.com/sakshamfit"
               target="_blank"
@@ -37,13 +50,13 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://github.com/sakshamfit?tab=repositories"
+              href="https://sakshamfit.netlify.app"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Repositories <MdArrowOutward />
+              Portfolio <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">

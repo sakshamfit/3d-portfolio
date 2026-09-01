@@ -46,13 +46,11 @@ const Navbar = () => {
           AP
         </a>
         <a
-          href="https://github.com/sakshamfit"
+          href="mailto:tonybanner885@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
-          target="_blank"
-          rel="noreferrer"
         >
-          github.com/sakshamfit
+          tonybanner885@gmail.com
         </a>
         <ul>
           <li>
