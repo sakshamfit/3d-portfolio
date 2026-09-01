@@ -90,17 +90,17 @@ const WhatIDo = () => {
               <h3>FRONTEND</h3>
               <h4>Building Clean, Responsive Interfaces</h4>
               <p>
-                I craft modern, responsive websites and single-page apps with a
-                focus on clean layouts, good UX, and pixel-perfect detail across
-                devices.
+                I build modern, responsive web interfaces and single-page apps in
+                TypeScript and React, with a focus on clean layouts, intuitive UX,
+                and pixel-perfect detail across devices.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">HTML</div>
-                <div className="what-tags">CSS</div>
+                <div className="what-tags">TypeScript</div>
                 <div className="what-tags">JavaScript</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Responsive Design</div>
+                <div className="what-tags">React.js</div>
+                <div className="what-tags">Tailwind CSS</div>
+                <div className="what-tags">HTML5 &amp; CSS3</div>
                 <div className="what-tags">UI/UX</div>
               </div>
               <div className="what-arrow"></div>
@@ -125,21 +125,59 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BACKEND &amp; FULL STACK</h3>
+              <h3>BACKEND &amp; APIS</h3>
               <h4>Wiring Up the Logic & Data</h4>
               <p>
-                I build the pieces behind the screen—APIs, data, and full-stack
-                features—so the apps I create actually work end to end, not just
-                look good.
+                I build the pieces behind the screen—REST APIs, authentication,
+                data models and full-stack workflows—so the products I ship work
+                end to end, not just look good.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">JavaScript</div>
+                <div className="what-tags">Express.js</div>
                 <div className="what-tags">REST APIs</div>
                 <div className="what-tags">MongoDB</div>
+                <div className="what-tags">Authentication</div>
                 <div className="what-tags">Git &amp; GitHub</div>
-                <div className="what-tags">Deployment</div>
+              </div>
+              <div className="what-arrow"></div>
+            </div>
+          </div>
+          <div
+            className="what-content what-noTouch"
+            ref={(el) => setRef(el, 2)}
+          >
+            <div className="what-border1">
+              <svg height="100%">
+                <line
+                  x1="0"
+                  y1="100%"
+                  x2="100%"
+                  y2="100%"
+                  stroke="white"
+                  strokeWidth="2"
+                  strokeDasharray="6,6"
+                />
+              </svg>
+            </div>
+            <div className="what-corner"></div>
+            <div className="what-content-in">
+              <h3>AI &amp; LLM</h3>
+              <h4>Building With Language Models</h4>
+              <p>
+                I integrate LLM APIs into real products—conversational workflows,
+                assistants and automation—and evaluate models on response quality,
+                latency and practical fit before shipping them.
+              </p>
+              <h5>Skillset & tools</h5>
+              <div className="what-content-flex">
+                <div className="what-tags">LLM APIs</div>
+                <div className="what-tags">OpenAI API</div>
+                <div className="what-tags">Prompt Engineering</div>
+                <div className="what-tags">Model Evaluation</div>
+                <div className="what-tags">AI Assistants</div>
+                <div className="what-tags">Python</div>
               </div>
               <div className="what-arrow"></div>
             </div>

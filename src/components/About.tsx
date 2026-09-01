@@ -6,12 +6,13 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I'm Anshuman Pandey, a student at Marwar Business School and an aspiring
-          web developer who loves turning ideas into clean, working products. I'm
-          learning to build for the web end to end—crafting responsive interfaces on
-          the frontend and wiring up the logic on the backend. I enjoy picking up new
-          technologies, shipping projects, and growing as a builder. You can find my
-          work on GitHub at @sakshamfit.
+          I'm Anshuman Pandey, a full-stack developer and product builder who ships
+          web applications, API-driven products and AI-powered software. I work
+          across TypeScript, React, Node.js, Express and MongoDB, and I'm the
+          founder and developer of +one, after building NEARconnect. I like taking
+          products from idea and architecture through development and iteration,
+          integrating external APIs and LLMs, and turning ambiguous requirements
+          into things that actually ship.
         </p>
       </div>
     </div>

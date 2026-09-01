@@ -66,11 +66,11 @@ const SocialIcons = () => {
       </div>
       <a
         className="resume-button"
-        href="https://github.com/sakshamfit"
+        href="/Anshuman-Pandey-Resume.pdf"
         target="_blank"
         rel="noreferrer"
       >
-        <HoverLinks text="GITHUB" />
+        <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
         </span>
