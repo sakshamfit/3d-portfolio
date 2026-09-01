@@ -15,6 +15,21 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
+                <h4>Plus One (+one)</h4>
+                <h5>Founder &amp; Builder · plusoneco.in</h5>
+              </div>
+              <h3>NOW</h3>
+            </div>
+            <p>
+              Designing and shipping a realtime chatting app for friends, group
+              chats and interest-based communities—1:1 and group messaging over
+              Socket.IO, live polls, voice notes, stories, disappearing messages
+              and WebRTC calls, running on web, Android and iOS from one codebase.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
                 <h4>Student</h4>
                 <h5>Marwar Business School</h5>
               </div>

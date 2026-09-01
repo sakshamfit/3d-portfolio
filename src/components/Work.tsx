@@ -5,6 +5,14 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+    title: "Plus One (+one)",
+    category: "Realtime Chatting App for Friends, GCs & Communities",
+    tools:
+      "React Native (Expo), Node.js, Socket.IO, WebRTC, SQLite, PWA · Android · iOS",
+    image: "/images/plusone.png",
+    link: "https://plusoneco.in",
+  },
+  {
     title: "NEARconnect",
     category: "Connect People Nearby by Profession",
     tools: "JavaScript, Web App, Geolocation, Real-time Matching",
